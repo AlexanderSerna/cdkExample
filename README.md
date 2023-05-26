@@ -4,6 +4,13 @@ This is a blank project for CDK development with TypeScript.
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
+## How create project in CDK with typeScript (Windows)
+* `mkdir "Name Project" && cd "Name project"` create folder and select this folder
+* `npx cdk init app --language typescript` create template initial with typescript 
+* `npm run bootstrap` create environment in aws with cdk library
+* `npm install`      install package library
+* `npm i --save-dev esbuild` Esbuild is the tool used to package the NodejsFunction
+
 ## Useful commands
 
 * `npm run build`   compile typescript to js
